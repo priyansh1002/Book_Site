@@ -8,8 +8,10 @@
 .book-item{
     padding: 3rem 2rem;
     border-radius: 4px;
-    background-color: var(--white-color);
+    /* background-color: var(--white-color); */
+    background: transparent;
     box-shadow: rgb(0,0,0,0.5) opx 5px 15px 0px;
+    /* filter: drop-shadow(rgb(0,0,0,0.5) opx 5px 15px 0px); */
     transition: var(--transition); 
 }
 .book-item-hover{
@@ -19,6 +21,7 @@
  max-width: 180px;
  margin-right: auto;
  margin-left: auto;
+ filter: drop-shadow(rgb(0,0,0,0.5) opx 5px 15px 0px);
 }
 .book-item-info{
     margin-top: 2rem;
